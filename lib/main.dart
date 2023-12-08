@@ -75,7 +75,7 @@ class _NavigationControllerState extends State<NavigationController>
                       case '/invite2':
                         return const InviteFriends();
                       case '/custom_playdate':
-                        return CreatePlaydateScreen();
+                        return const CreatePlaydateScreen();
                       case '/settings':
                         return const SettingsPage();
                     }

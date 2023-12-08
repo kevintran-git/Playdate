@@ -327,7 +327,7 @@ class SentPlaydate extends StatelessWidget {
                       SizedBox(width: 5),
                       Text(
                         "Playdate with Nicole S.",
-                        style: const TextStyle(fontSize: 18),
+                        style: TextStyle(fontSize: 18),
                       ),
                     ],
                   ),

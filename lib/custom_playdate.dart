@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:playdate/common.dart';
 
 class CreatePlaydateScreen extends StatefulWidget {
+  const CreatePlaydateScreen({super.key});
+
   @override
   _CreatePlaydateScreenState createState() => _CreatePlaydateScreenState();
 }
