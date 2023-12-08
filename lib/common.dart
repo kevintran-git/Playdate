@@ -59,6 +59,7 @@ AppBar getAppBar(BuildContext context) {
     ],
   );
 }
+
 // helper func to make title / subtitle from text
 Widget makeTitle(String text, bool isTitle) {
   return Padding(
@@ -134,6 +135,7 @@ Widget makeCarousel(List<Widget> playdateWidgets) {
         height: 130.0,
         enableInfiniteScroll: false,
         enlargeFactor: 0.2,
+        initialPage: 1,
         enlargeCenterPage: true,
         viewportFraction: 0.4),
   );
